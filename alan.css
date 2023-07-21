@@ -1,0 +1,89 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+   background-color: aqua;
+}
+h1{
+    font-size: 70px;
+}
+#dp{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* card1 */
+.card1{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+    flex: 1 1 120px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* card2 */
+.card2{
+    width: 200px;
+    margin-top: 10px;
+    height: 200px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color:  #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+    flex: 1 1 120px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* card3 */
+.card3{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 30px;
+    background-color: #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+    flex: 1 1 120px;
+}
+.content3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cards{
+    padding-top: 50px;
+}
+.card{  
+    display:flex;
+    flex: wrap;
+    justify-content: center;
+}
+@media all and (max-width:600px){
+    .card{
+        flex-wrap: wrap;
+    }
+    .card1{
+        flex:1 1 50%;
+
+    }
+    .card2{
+        flex:1 1 50%;
+
+    }
+    /* flexbasis,flex-shrink ,flex-grow*/
+    .card3{
+        flex:1 1 50%;
+
+    }
+}
